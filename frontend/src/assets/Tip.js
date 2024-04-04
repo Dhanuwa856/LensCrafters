@@ -1,0 +1,148 @@
+import Tip01 from "../../src/assets/tip01.jpg";
+import Tip02 from "../../src/assets/tip02.jpg";
+import Tip03 from "../../src/assets/tip03.jpg";
+import Tip04 from "../../src/assets/tip04.jpg";
+import Tip05 from "../../src/assets/tip05.jpg";
+import Tip06 from "../../src/assets/tip06.jpg";
+import Tip07 from "../../src/assets/tip07.jpg";
+import Tip08 from "../../src/assets/tip08.jpg";
+import Tip09 from "../../src/assets/tip09.jpg";
+import Tip10 from "../../src/assets/tip10.jpg";
+import Tip11 from "../../src/assets/tip11.jpg";
+import Tip12 from "../../src/assets/tip12.jpg";
+
+const all_tips = [
+  {
+    id: 1,
+    tip: "Work with Your Composition",
+    p01: "To take engaging photos, you need to be engaged with what you’re doing. Don’t just fly by on autopilot. Instead, put thought into your composition and try to make your photos as good as possible.",
+    p02: "That starts with knowing the basics of how to compose good photos. Don’t cut off important parts of your subject with the edge of your frame. Keep your horizons level, and try to eliminate any distractions in your photo by adjusting your composition. See if your photo has a sense of balance and simplicity.",
+    p03: "If the photo doesn’t look good on your first try, keep experimenting until you get it right. It is so easy to depress the shutter when something looks good and then stop, but if you consider a few alternative compositions, chances are one of them will be better than the first.",
+    p04: "",
+    p05: "",
+    time: "2 Day ago",
+    tip_image: Tip01,
+  },
+  {
+    id: 2,
+    tip: "Use the Camera You Already Have",
+    p01: "Camera gear is not all that important.",
+    p02: "There are countless cameras, lenses, and other accessories on the market today. We spend a lot of time reviewing them at Photography Life, and it’s true that some are better than others (or better suited for a given job). But once you’ve tested enough of them, the real takeaway is that pretty much everything today is excellent. The differences are almost always minor, especially at a given price.",
+    p03: "So, use the camera you already have, and don’t look back. In almost every way, today’s entry-level mirrorless cameras are better than the top-of-the-line film SLRs or even the DSLRs of ten years ago. Yet, somehow those film photographers managed to capture beautiful, iconic photos that still look great today.",
+    p04: "Much more important are your creative skills and knowledge of camera settings. Focus your effort on those, not on collecting camera equipment.",
+    p05: "",
+    time: "3 Day ago",
+    tip_image: Tip02,
+  },
+  {
+    id: 3,
+    tip: "Learn Which Settings Matter",
+    p01: "There are a lot of camera settings, and it takes some practice to get them right, especially as a beginner. Even advanced photographers won’t always do everything perfectly. But it’s worth learning how to set your camera properly, and which camera settings matter the most, so you have the best chance to take the photos you want.",
+    p02: "First, try practicing with camera modes other than full Auto. You won’t learn anything if your camera is making all the decisions for you. It might be confusing at first, but hopefully our articles on aperture, shutter speed, and ISO will give you a good head start. Those are the three most important settings in all of photography.",
+    p03: "Aside from aperture, shutter speed, and ISO, learn how to focus properly by practicing with the different autofocus modes. You’ll probably prefer single-servo autofocus (also known as One-Shot AF) for stationary subjects, and continuous-servo autofocus (also known as AI Servo) for moving subjects. Don’t use manual focus unless it’s so dark that autofocus isn’t working.",
+    p04: "Lastly, shoot in Raw if you want to edit your photos, or think there’s any chance you’ll edit them in the future. JPEGs look good out of camera, but the files have much less latitude for post-processing. (If you aren’t sure, shoot RAW+JPEG, and keep the RAWs for later just in case.) See RAW vs JPEG for more.",
+    p05: "",
+    time: "1 Day ago",
+    tip_image: Tip03,
+  },
+  {
+    id: 4,
+    tip: "Don’t Overexpose Highlights",
+    p01: "When you are picking your camera settings, it is critical to avoid overexposing highlights in a photo. The reason? It’s simply impossible to recover any detail from white areas of a photo. Personally, I prefer the sky in my photos to have nice texture and color, rather than being just a big, featureless blob, and I bet you do too.",
+    p02: "It’s pretty easy to keep your highlights intact. But this is where shutter speed, aperture, and ISO are so important. These are the only camera settings that directly affect the brightness of a photo (ignoring flash settings, of course). Even exposure compensation – an important setting itself – just tells your camera to change one or more of these three variables.",
+    p03: "When you’re taking photos, watch the camera screen to see if there is any overexposure. If there is, the first thing you should do is lower your ISO to its base value (usually ISO 100). If it’s already there, use a faster shutter speed. That will take care of the issue. As for aperture, make sure it isn’t set to a crazy value (f/32, f/45, etc.) and you’ll be good.",
+    p04: "If your camera is mirrorless and has a histogram or zebras, enable them. These tools allow you to check your exposure and more easily get a properly-exposed photograph.",
+    p05: "",
+    time: "1 Day ago",
+    tip_image: Tip04,
+  },
+  {
+    id: 5,
+    tip: "Pay Attention to the Light",
+    p01: "Probably the single most important part of photography is light. If you take a photo with good light, you’ve taken a huge step toward getting a good picture. But what counts as good light? It’s not all about sunsets.",
+    p02: "Often, the goal here is to balance the light’s intensity between your subject and background. Even if you’re photographing an amazing sunset, the photo could be ruined by a completely dark and silhouetted foreground.",
+    p03: "The easiest way to solve this is to pay attention to the direction and softness of the light. If the light is too harsh, you could get bad shadows going across your subject, which is especially a problem for portrait photography. If the light is coming from an unflattering angle, see what you can do to move the light source (in a studio) or move the subject (outdoors) – or wait until the light is better (landscape photography).",
+    p04: "Also, if you’re taking handheld pictures, make sure there is enough light. If not, use a flash or move where it’s brighter. The easiest way to get bland, discolored photos is to shoot in environments without enough light.",
+    p05: "",
+    time: "2 Day ago",
+    tip_image: Tip05,
+  },
+  {
+    id: 6,
+    tip: "Take Your Time",
+    p01: "It’s easy to make mistakes in photography if you aren’t careful. The best way around this is to slow down and take your time whenever possible, particularly when you are first beginning to learn photography.",
+    p02: "First, double-check your camera settings. If you’re shooting outdoor portraits on a sunny day, but you’re using last night’s settings for photographing the Milky Way, something is terribly wrong. Slow down and take the time to get it right.",
+    p03: "Then, keep the same mindset for every other important decision. Is your composition as good as possible? Did you autofocus in the right place? Have you done everything possible to improve the lighting conditions?",
+    p04: "And don’t listen to people who tell you to avoid reviewing photos in the field. Sure, it’s a bad idea to review photos when something amazing is happening in front of you, but you’ll almost always have some downtime between shots. Figure out the problems with an image in the field – not back at your computer.",
+    p05: "",
+    time: "2 Day ago",
+    tip_image: Tip06,
+  },
+  {
+    id: 7,
+    tip: "Move Your Feet",
+    p01: "It’s easy to get stuck in one place while you’re taking pictures. Don’t fall into that trap. Instead, move your feet (or your tripod) as much as possible. Climb on top of things, change the height of your camera, walk forward and backward, do whatever you need to do – but keep moving.",
+    p02: "If you take a dozen photos from the same height, facing the same direction, without moving your feet or tripod at all, guess what? They won’t be very different. If your entire portfolio is taken from the same height and without any experimentation, you’re missing out on some great photos",
+    p03: "Moving around is the only way to change the relative sizes and positions of the objects in your photo. Don’t like that your subject is too big and the landscape in the background is too small? Stand back and zoom in. Want to fix a rock that looks distracting? Move around until it’s out of your composition, or too small to be a nuisance.",
+    p04: "For wildlife photography, pay very close attention to the angle and height of your shot. Animals usually look better when you are at eye level with them, and it also tends to give backgrounds that are farther away, giving more subject isolation.",
+    p05: "",
+    time: "5 Day ago",
+    tip_image: Tip07,
+  },
+  {
+    id: 8,
+    tip: "Know When to Use a Tripod",
+    p01: "Tripods are one of the greatest inventions in photography. They all but eliminate one of the trickiest problems there is – a lack of light. With tripods, you can shoot multi-minute exposures and capture details so dark that they are invisible to the human eye. Even in a brighter scene, tripods improve the stability of your composition and help you take sharper photos.",
+    p02: "So, when should you use a tripod? If your subject is stationary, almost always. That means landscape photographers, architectural photographers, and still life photographers better have a good excuse if they aren’t using a tripod.",
+    p03: "Macro photography is another case where tripods are essential. At high magnifications, even the excellent in-body image stabilization (IBIS) of today’s cameras cannot compensate for the very low light and long shutter speeds required for truly excellent macro work. Even if you are using flash, it is very difficult to get the plane of focus right. The only solution is a tripod.",
+    p04: "Event photography and action are a bit different because it’s true that a tripod can slow you down. The same is true of travel photography; as much as you may want to bring along a tripod, it might not be worth the hassle.",
+    p05: "That’s fair, but know that you’re missing out whenever you leave your tripod at home. If you offered me the choice between an entry-level DSLR and a tripod versus the best camera/lens combo on the market without one, I’d pick the tripod kit every time.",
+    time: "2 Day ago",
+    tip_image: Tip08,
+  },
+  {
+    id: 9,
+    tip: "Pay Attention to the Edges of Your Composition",
+    p01: "When you’re composing a photo, it helps to pay careful attention to the edges of the frame. Simply put, the edges have an exaggerated impact on the “feel” of your photo!",
+    p02: "For starters, make sure that your subject has enough breathing room so that it’s not bunching up against the edge of a photo. And certainly don’t cut off an important element, like the top of a mountain, unless you have a very good reason.",
+    p03: "Along the same lines, any distractions in your photo will draw more attention if they’re close to the edge, because they’re dragging a viewer’s attention further from the main subject of the photo. If you only think about the main subject and don’t pay attention to the rest of the frame, you might end up with a sloppy composition.",
+    p04: "",
+    p05: "",
+    time: "2 Day ago",
+    tip_image: Tip09,
+  },
+  {
+    id: 10,
+    tip: "Know When to Use a Flash",
+    p01: "Flashes aren’t just meant for dark environments.",
+    p02: "Don’t get me wrong – they’re great if you need some extra light. Get an external flash, tilt it at the ceiling, and use a relatively long lens (50mm or longer). Everyone you know will be amazed at the quality of your event photos. It’s the easiest way to get good results without actually knowing what you’re doing.",
+    p03: "But flashes are useful outdoors, too, even in the middle of the day. If you’ve ever heard of “fill flash,” this is why it’s so important. You can fill in ugly shadows on your subject just by using a gentle flash – and most people looking at the photo won’t even be able to tell.",
+    p04: "It’s silly, but I like to tell people that their camera’s built-in flash is more useful on a bright, sunny day than in the dark. That advice holds just as true here.",
+    p05: "",
+    time: "6 Day ago",
+    tip_image: Tip10,
+  },
+  {
+    id: 11,
+    tip: "Don’t Use a Cheap Filter",
+    p01: "FThe second easiest way to get blurry photos 100% of the time is to use a cheap filter on the front of your lens.",
+    p02: "Don’t make the same mistake I did! Yes, this was an old filter, but cheap ones today do exactly the same thing. Personally, I never use a clear, protective filter on my lens anymore, except in environments where I also need protective eyewear. If you do need to use a filter, make sure it’s a good one from a name brand like B+W, and not the first on the low-to-high price list on Amazon.",
+    p03: "",
+    p04: "",
+    p05: "",
+    time: "2 Day ago",
+    tip_image: Tip11,
+  },
+  {
+    id: 12,
+    tip: "Learn Basic Post-Processing",
+    p01: "Post-processing isn’t very high on the typical photographer’s priority list, but it definitely should be. Although postprocessing cannot fix a bad photo, it can turn a good photo can turn into something truly exceptional.",
+    p02: "It’s easy to overdo it when you’re post-processing, so the most important thing is to make sure none of your edits are permanent (AKA “destructive editing”). Either use the Save As command to preserve your original files or, better yet, edit in software like Adobe Lightroom or Capture One Pro that stores your edits in a separate file rather than baking them into the image.",
+    p03: "Post-processing is about imparting a mood and guiding your viewer’s eye in an image. You’ll get better and better at this over time. My top recommendation? Be subtle. You don’t want your photos to look over-processed.",
+    p04: "",
+    p05: "",
+    time: "2 Day ago",
+    tip_image: Tip12,
+  },
+];
+export default all_tips;

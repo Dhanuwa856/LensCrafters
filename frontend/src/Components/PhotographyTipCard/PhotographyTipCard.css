@@ -1,0 +1,109 @@
+.photography-tip-card img {
+  width: 400px;
+  height: 250px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.photography-tip-card {
+  width: 400px;
+  background: #eee;
+  padding-bottom: 20px;
+  color: #555;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.photography-tip-card p {
+  font-size: 14px;
+  margin-top: 4px;
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: .5s;
+}
+
+.time {
+  text-align: right;
+  margin-top: 5px;
+  font-size: 13px;
+  padding-right: 5px;
+  font-weight: 500;
+  color: #000;
+}
+
+.photography-tip-card:hover.photography-tip-card p {
+  color: #849623;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width:1270px) {
+  .photography-tip-card {
+    width: 300px;
+
+  }
+
+  .photography-tip-card p {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width:1024px) {
+  .photography-tip-card {
+    width: 375px;
+    gap: 20px;
+  }
+
+
+
+}
+
+@media (max-width:768px) {
+  .photography-tip-card {
+    width: 500px;
+
+  }
+
+  .photography-tip-card img {
+    width: 500px;
+  }
+
+
+
+}
+
+@media (max-width:580px) {
+  .photography-tip-card {
+    width: 300px;
+
+  }
+
+  .photography-tip-card img {
+    width: 300px;
+  }
+
+
+
+}
+
+@media (max-width:380px) {
+  .photography-tip-card {
+    width: 250px;
+
+  }
+
+  .photography-tip-card img {
+    width: 250px;
+  }
+
+
+
+}
